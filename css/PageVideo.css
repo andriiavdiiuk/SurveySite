@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.site .main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.site .main .main__section {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(217, 217, 217, 0.3882352941);
+  padding: 3.32vw 4.18vw 6.7vw 4.18vw;
+  gap: 50px;
+  min-height: 100px;
+}
+.site .main .main__section .section__text_block {
+  max-width: calc(50% - 10px);
+  flex-grow: 1;
+}
+.site .main .main__section .section__text_block .section__title {
+  width: max-content;
+  font: 400 48px "Playfair Display SC";
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+.site .main .main__section .section__text_block .section__text {
+  font: 400 36px "Vardana";
+  margin-bottom: 40px;
+}
+.site .main .main__section .section__text_block .section__link video,
+.site .main .main__section .section__text_block .section__link img {
+  height: 51px;
+  width: 51px;
+}
+.site .main .main__section .section__video_block {
+  max-width: calc(50% - 50px);
+  flex-grow: 1;
+}
+.site .main .main__section .section__video_block video,
+.site .main .main__section .section__video_block img {
+  height: 100%;
+  width: 100%;
+}
+.site .main .main__section .section__link-2 {
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .site .main .main__section {
+    padding: 3.32vw 4.18vw 6.7vw 4.18vw;
+  }
+  .site .main .main__section .section__text_block .section__title {
+    font: 400 38px "Playfair Display SC";
+    margin-bottom: 30px;
+  }
+  .site .main .main__section .section__text_block .section__text {
+    font: 400 30px "Vardana";
+    margin-bottom: 20px;
+  }
+  .site .main .main__section .section__text_block .section__link video,
+  .site .main .main__section .section__text_block .section__link img {
+    height: 31px;
+    width: 31px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .site .main .main__section .section__text_block .section__title {
+    font: 400 28px "Playfair Display SC";
+    margin-bottom: 22px;
+  }
+  .site .main .main__section .section__text_block .section__text {
+    font: 400 22px "Vardana";
+    margin-bottom: 20px;
+  }
+  .site .main .main__section .section__text_block .section__link video,
+  .site .main .main__section .section__text_block .section__link img {
+    height: 21px;
+    width: 21px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .site .main {
+    box-sizing: border-box;
+    padding: 30px 0 30px 0;
+    align-items: stretch;
+    height: 100%;
+  }
+  .site .main .main__section {
+    flex-direction: column;
+    padding: 10vw 7vw 0 7vw;
+    gap: 0;
+    height: auto;
+  }
+  .site .main .main__section .section__text_block, .site .main .main__section .section__link-2 {
+    max-width: 100%;
+  }
+  .site .main .main__section .section__text_block .section__title, .site .main .main__section .section__link-2 .section__title {
+    font: 400 32px "Playfair Display SC";
+    margin-bottom: 30px;
+  }
+  .site .main .main__section .section__text_block .section__text, .site .main .main__section .section__link-2 .section__text {
+    font: 400 13px "Vardana";
+    margin-bottom: 30px;
+  }
+  .site .main .main__section .section__video_block {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .site .main .main__section .section__video_block video,
+  .site .main .main__section .section__video_block img {
+    height: 100%;
+    width: 100%;
+  }
+  .site .main .main__section .section__link-2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+  }
+  .site .main .main__section .section__link-2 a {
+    align-self: stretch;
+  }
+  .site .main .main__section .section__link-2 a video,
+  .site .main .main__section .section__link-2 a img {
+    width: 24px;
+    height: 26px;
+  }
+  .site .main .main__section .section__text_block a {
+    display: none;
+  }
+}/*# sourceMappingURL=PageVideo.css.map */

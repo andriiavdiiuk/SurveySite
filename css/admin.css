@@ -1,0 +1,13 @@
+body {
+    counter-reset: Counter;
+}
+#admin_login_container {
+    width: 40%;
+    margin-top: 100px;
+}
+
+.question_title::after{
+    display: inline-block;
+    counter-increment: Counter;
+    content: counter(Counter);
+}

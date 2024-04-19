@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link href="https://fonts.cdnfonts.com/css/crimson-foam" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+  </head>
+
+  <body>
+    <img src="../assets/quiz.png" alt="BGphoto">
+    <div class="container">
+      <div class="home-icon">
+        <a href="../index.html"><img src="../assets/icons/home.svg" alt=""></a>
+      </div>
+      <form id="form1">
+        <p id="questionNumber">1/8</p>
+        <h1>Are you working with lines that are lacking marketing exposure on both google & meta?</h1>
+        <div class="answer-group">
+          <div class="group1">
+            <input type="radio" id="yes" name="answer" value="yes">
+            <label for="yes">YES</label><br>
+          </div>
+          <div class="group2">
+            <input type="radio" id="no" name="answer" value="no">
+            <label for="no">NO</label><br>
+          </div>
+        </div>
+      </form>
+      <form id="form2" style="display: none;">
+        <p id="questionNumber">2/8</p>
+        <h1>do you struggle to find brands that prioritize close collaboration with their retail partners?</h1>
+        <div class="answer-group">
+          <div class="group1">
+            <input type="radio" id="yes1" name="answer" value="yes1">
+            <label for="yes1">YES</label><br>
+          </div>
+          <div class="group2">
+            <input type="radio" id="no1" name="answer" value="no1">
+            <label for="no1">NO</label><br>
+          </div>
+        </div>
+      </form>
+      <form id="form3" style="display: none;">
+        <p id="questionNumber">3/8</p>
+        <h1>what is your marketing budget?</h1>
+        <input type="text" placeholder="Enter" required>
+      </form>
+      <form id="form4" style="display: none;">
+        <p id="questionNumber">4/8</p>
+        <h1>are you working with collections that don’t have a strong digital presence? (social marketing, marketing as
+          a whole)</h1>
+        <div class="answer-group">
+          <div class="group1">
+            <input type="radio" id="yes2" name="answer" value="yes2">
+            <label for="yes2">YES</label><br>
+          </div>
+          <div class="group2">
+            <input type="radio" id="no2" name="answer" value="no2">
+            <label for="no2">NO</label><br>
+          </div>
+        </div>
+      </form>
+      <form id="form5" style="display: none;">
+        <p id="questionNumber">5/8</p>
+        <h1>are you looking for a brand that will not only help you with your overall customer service but also your
+          marketing plan?</h1>
+        <div class="answer-group">
+          <div class="group1">
+            <input type="radio" id="yes3" name="answer" value="yes3">
+            <label for="yes3">YES</label><br>
+          </div>
+          <div class="group2">
+            <input type="radio" id="no3" name="answer" value="no3">
+            <label for="no3">NO</label><br>
+          </div>
+        </div>
+      </form>
+      <form id="form6" style="display: none;">
+        <p id="questionNumber">6/8</p>
+        <h1>do you have a specific sales volume target for the brands you partner with?</h1>
+        <input type="text" placeholder="Enter" required>
+      </form>
+      <form id="form7" style="display: none;">
+        <p id="questionNumber">7/8</p>
+        <h1>what price points do you sell most collections at?</h1>
+        <input type="text" placeholder="Enter" required>
+      </form>
+      <form id="form8" style="display: none;">
+        <p id="questionNumber">8/8</p>
+        <h1>how often do you require new sampling for your showroom & what regions do you operate in?</h1>
+        <input type="text" placeholder="Enter" required>
+      </form>
+      <div class="button-group">
+        <button class="btn return">Return</button>
+        <button class="save">Save</button>
+        <button class="btn next" onclick="showNextForm()">Next</button>
+      </div>
+    </div>
+    <script src="../js/quiz.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+
+</html>
